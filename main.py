@@ -1,7 +1,10 @@
 import requests
 
 for i in range(0, len(numbers)):
-    if (numbers[i] % 2 == 0):
+    if(numbers[i] % 2== 0):
+    if numbers[i] % 2 == 0:
+      
+      main
         print("Even number:", numbers[i])
         total += numbers[i]
     else:
@@ -10,8 +13,13 @@ for i in range(0, len(numbers)):
 response = requests.get(url)
 
 count = 0
-while (count < len(numbers)):
-    if(numbers[count] > 20):
+while count < len(numbers):
+
+main
+ if (numbers[count] > 20):
+    
+    if numbers[count] > 20:
+ main
         print("Large:", numbers[count])
         count = count + 2
 
@@ -31,5 +39,4 @@ while (count < len(numbers)):
 else:
     print("API request failed:", response.status_code)
 for num in numbers:
-    print("Square:", num ** 20)
-
+    print("Square:", num ** 2)
